@@ -403,7 +403,8 @@ h1{
 }
 
 .content--related {
-	padding: 8em 5vw;
+	margin-top: -150px;
+	margin-bottom: -30px;
 	font-weight: bold;
 	text-align: center;
 	background: #000;
@@ -447,29 +448,34 @@ h1{
 }
 
 @media screen and (max-width: 50em) {
-	.headertitle{
-		font-size: 1.1rem;
-		margin-top: 70px;
+	h1.title{
+		margin-top: 3em;
 	}
 	.logo{
+		margin-top: -3em;
 		margin-left: 1rem;
 	}
 	.grid {
-		padding: 0 1vw;
+		padding: 20px 1vw;
+		margin-top: 20px;
+		grid-template-columns: repeat(1, 1fr);
 	}
 	.grid__item {
-		padding: 0 2vw;
+		padding: 20px 2vw;
+	}
+	.product {
+		display: block;
 	}
 	.product__bg {
 		padding-bottom: 20px;
 		height: 17em;
 		width: 16rem;
-		margin-left: 20px;
+		margin-left: 110px;
 	}
 	
 	.product__img {
 	    margin-bottom: 20px;
-		margin-right: 50px;
+		margin-right: 80px;
 		margin-bottom: 50px;
 	
 	}
@@ -481,11 +487,11 @@ h1{
 		font-size: 0.75em;
 	}
 	.details {
-		padding: 30vh 0 5vh 10vw;
+		padding: 40vh 0 10vh 10vw;
 	}
 	.details__bg--down {
 		top: 30vh;
-		height: 70vh;
+		height: 80vh;
 	}
 	.details__title {
 		font-size: 2em;
@@ -514,7 +520,7 @@ h1{
 	}
 	
 	.header {
-		padding: 1em 4em;
+		padding: 2em 4em;
 	}
 	.title {
 		font-weight: bold;
