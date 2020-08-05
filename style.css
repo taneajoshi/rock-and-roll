@@ -1,0 +1,641 @@
+:root{
+      --pink:#C3073F;
+      --grey:#a0a0a0;
+}
+html, body {
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+      height: 100vh;
+      background: #121212;
+      overflow: hidden;
+}
+
+body {
+      background: url(hero.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+a{
+      text-decoration: none;
+      color: white;
+}
+img {
+      width: 100%;
+}
+.header img{
+   width: 65%;
+   transform: rotate(-30deg);
+   margin-top: -18%;
+   margin-left: 40%;
+   z-index: -1;
+}
+
+.logo {
+      position: fixed;
+      font-family: Poppins;
+      line-height: 80px;
+      margin-left: 3em;
+      color: #fff;
+      font-size: 18px;
+      letter-spacing: 3.5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      z-index: 1;
+}
+
+.logo span{
+      color: var(--pink);
+}
+.buy{
+      position: fixed;
+      color:white;
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-family: Poppins;
+      right: 100px;
+      line-height: 80px;
+      z-index: 1;
+}
+.buy:hover{
+      color: var(--grey);
+}
+
+.menu{
+      position: fixed;
+      color: var(--pink);
+      right: 2em;
+      top: 4px;
+      line-height: 80px;
+      z-index: 1;
+}
+
+.menu ion-icon {
+      font-size: 26px;
+}
+
+.header {
+      width: 100%;
+      position: absolute;
+      top: 46%;
+      left: 32%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+
+.ml7 {
+      position: relative;
+      font-weight: 500;
+      font-size: 2em;
+      margin-left: 28%;
+      z-index: 1;
+}
+
+.ml7 .text-wrapper {
+      position: relative;
+      display: block;
+      padding-top: 0.2em;
+      padding-right: 0.05em;
+      padding-bottom: 0.1em;
+      overflow: hidden;
+}
+
+.ml7 .letter {
+      transform-origin: 0 100%;
+      display: inline-block;
+      line-height: 1em;
+}
+
+h1 {
+      color: #fff;
+      font-family: "Roboto";
+      font-weight: bolder !important;
+      font-size: 35px !important;
+      margin-bottom: 0px;
+      text-transform: uppercase !important;
+}
+
+#tagline  {
+      width: 640px;
+}
+
+p {
+      color: var(--grey);
+      font-weight: 400;
+      font-family: "Roboto";
+      line-height: 28px;
+      margin-top: 8%;
+      margin-bottom: 0;
+      margin-left: 28%;
+}
+
+
+.buttons{
+      position: absolute;
+     left:65% ;
+     top: 63%;
+     z-index: 100;
+     
+}
+button {
+      display: inline-block;
+      cursor: pointer;
+      padding: 16px 35px;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 12.5px !important;
+      letter-spacing: 4px;
+      font-weight: 300;
+}
+
+
+#one {
+      background: transparent;
+      border: 0.3pt solid var(--grey);
+}
+
+#two {
+      background: linear-gradient(135deg, var(--pink) 0%, #c22151 100%);;
+}
+#two:hover{
+      display: inline-block;
+      border: 1px solid var(--pink);
+      color: #C3073F;
+      background: transparent;
+      font-size: 500;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+}
+#one:hover{
+      display: inline-block;
+      color: black;
+      background: #fff;
+      font-size: 500;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+}
+
+.media {
+      position: absolute;
+      top: 38%;
+      z-index: 1;
+      right: 6%
+}
+
+.media ul {
+      position: absolute;
+      list-style: none;
+}
+
+.media ul li {
+      cursor: pointer;
+      color: var(--grey);
+      padding: 12px 0;
+      display: inline-block;
+}
+.media ul li:hover{
+      display: inline-block;
+      transform: scale(1.1);
+      color: var(--pink);
+      -webkit-transform: scale(1.1);
+}
+
+li ion-icon{
+      -webkit-transform: scale(1.1);
+}
+
+.bottom-text {
+      position: absolute;
+      z-index: 1;
+      color: var(--grey);
+      font-size: 18px;
+      font-family: Helvetica, sans-serif;
+      margin-left: 2em;
+      bottom: 40px;
+}
+
+.copyright {
+      position: absolute;
+      z-index: 1;
+      color: var(--grey);
+      font-size: 16px;
+      right: 0;
+      font-family: Helvetica, sans-serif;
+      font-weight: 500;
+      word-spacing:2px;
+      letter-spacing: 1px;
+      margin-right: 2em;
+      bottom: 40px;   
+}
+.copyright a{
+      color: #C3073F;
+      font-size: 18px;
+      letter-spacing: 1px;
+}
+
+.loading-screen {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background: #0a0a0a;
+      z-index: 2;
+}
+.logoicon{
+      color: var(--pink);
+}
+.ring {
+      margin: 0%;
+      padding: 0%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      z-index: 2;
+      width: 25%;
+      opacity: 1;    
+}
+
+.ringOne img {
+      animation: rotateFirstRing 3s linear infinite;
+}
+
+
+
+.ringTwo img {
+      animation: rotateFirstRing 8s linear infinite;
+}
+
+@keyframes rotateFirstRing {
+      from {
+            transform: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
+}
+
+@media(max-width: 900px) {
+header img{
+   width: 65%;
+   transform: rotate(-30deg);
+   margin-top: -18%;
+   margin-left: 40%;
+   z-index: -1;
+}
+
+.logo {
+      position: fixed;
+      font-family: Poppins;
+      line-height: 80px;
+      margin-left: 3em;
+      color: #fff;
+      font-size: 18px;
+      letter-spacing: 3.5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      z-index: 1;
+}
+
+.logo ion-icon {
+      color: var(--pink);
+      margin-right: 7px;
+      position: relative;
+      top: 1px;
+      z-index: 1;
+}
+.logo span{
+      color: var(--pink);
+}
+.buy{
+      position: fixed;
+      color:white;
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-family: Poppins;
+      right: 100px;
+      line-height: 80px;
+      z-index: 1;
+}
+.buy:hover{
+      color: var(--grey);
+}
+
+.menu{
+      position: fixed;
+      color: var(--pink);
+      right: 2em;
+      top: 4px;
+      line-height: 80px;
+      z-index: 1;
+}
+
+.menu ion-icon {
+      font-size: 26px;
+}
+
+.header {
+      width: 100%;
+      position: absolute;
+      top: 46%;
+      left: 32%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+}
+
+.ml7 {
+      position: relative;
+      font-weight: 500;
+      font-size: 2em;
+      margin-left: 28%;
+      z-index: 1;
+}
+
+.ml7 .text-wrapper {
+      position: relative;
+      display: block;
+      padding-top: 0.2em;
+      padding-right: 0.05em;
+      padding-bottom: 0.1em;
+      overflow: hidden;
+}
+
+.ml7 .letter {
+      transform-origin: 0 100%;
+      display: inline-block;
+      line-height: 1em;
+}
+
+h1 {
+      color: #fff;
+      font-family: "Roboto";
+      font-weight: bolder !important;
+      font-size: 35px !important;
+      margin-bottom: 0px;
+      text-transform: uppercase !important;
+}
+
+#tagline  {
+      width: 640px;
+}
+
+p {
+      color: var(--grey);
+      font-weight: 400;
+      font-family: "Roboto";
+      line-height: 28px;
+      margin-top: 8%;
+      margin-bottom: 0;
+      margin-left: 28%;
+}
+
+
+.buttons{
+      position: absolute;
+     left:65% ;
+     top: 63%;
+     z-index: 100;
+     
+}
+button {
+      display: inline-block;
+      cursor: pointer;
+      padding: 16px 35px;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 12.5px !important;
+      letter-spacing: 4px;
+      font-weight: 300;
+}
+
+
+#one {
+      background: transparent;
+      border: 0.3pt solid var(--grey);
+}
+
+#two {
+      background: linear-gradient(135deg, var(--pink) 0%, #c22151 100%);;
+}
+#two:hover{
+      display: inline-block;
+      border: 1px solid var(--pink);
+      color: #C3073F;
+      background: transparent;
+      font-size: 500;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+}
+#one:hover{
+      display: inline-block;
+      color: black;
+      background: #fff;
+      font-size: 500;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+}
+
+.media {
+      position: absolute;
+      top: 38%;
+      z-index: 1;
+      right: 6%
+}
+
+.media ul {
+      position: absolute;
+      list-style: none;
+}
+
+.media ul li {
+      cursor: pointer;
+      color: var(--grey);
+      padding: 12px 0;
+      display: inline-block;
+}
+.media ul li:hover{
+      display: inline-block;
+      transform: scale(1.1);
+      color: var(--pink);
+      -webkit-transform: scale(1.1);
+}
+
+li ion-icon{
+      -webkit-transform: scale(1.1);
+}
+
+.bottom-text {
+      position: absolute;
+      z-index: 1;
+      color: var(--grey);
+      font-size: 18px;
+      font-family: Helvetica, sans-serif;
+      margin-left: 2em;
+      bottom: 40px;
+}
+
+.copyright {
+      position: absolute;
+      z-index: 1;
+      color: var(--grey);
+      font-size: 16px;
+      right: 0;
+      font-family: Helvetica, sans-serif;
+      font-weight: 500;
+      word-spacing:2px;
+      letter-spacing: 1px;
+      margin-right: 2em;
+      bottom: 40px;   
+}
+.copyright a{
+      color: #C3073F;
+      font-size: 18px;
+      letter-spacing: 1px;
+}
+
+.loading-screen {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background: #0a0a0a;
+      z-index: 2;
+}
+.logoicon{
+      color: var(--pink);
+}
+.ring {
+      margin: 0%;
+      padding: 0%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      z-index: 2;
+      width: 25%;
+      opacity: 1;    
+}
+
+.ringOne img {
+      animation: rotateFirstRing 3s linear infinite;
+}
+
+
+
+.ringTwo img {
+      animation: rotateFirstRing 8s linear infinite;
+}
+
+    
+
+     
+
+}
+@media(max-width: 800px) {
+.header img{
+      width: 85%;
+      margin-left: 250px;
+      margin-top: -60px;
+}             
+
+.buy{
+      color:white;
+      z-index: 1;
+} 
+.menu{
+      right: 2%;  
+}
+
+.header{
+      left: 27%;
+      z-index: 1;
+}
+
+h1 {
+      font-size: 32px !important;
+}
+
+
+.buttons{
+      position: absolute;
+     left:64% ;
+     top: 63%;
+     z-index: 100;
+}
+button {
+      display:block;
+}
+
+.media {
+      right: 10%
+}
+
+
+.copyright {
+      font-size: 14px;
+      bottom: 30px;   
+}
+.copyright a{
+      font-size: 17px;
+}
+p {
+      margin-top: 6.5%;
+      margin-left: 28%;
+}
+}
+
+@media(max-width: 500px) {
+.logo {
+      margin-left: 1.2em;
+      font-size: 15px;
+      letter-spacing: 2.5px;
+}
+      
+ .header img{
+      transform: rotate(-45deg);
+       width: 100%;
+       margin-left: 130px;
+       margin-top: -50px;
+ }             
+ 
+ .buy{
+       color:white;
+       font-size: 15px;
+       z-index: 1;
+ } 
+ .menu{
+       right: 2%;  
+ }
+ 
+ .header{
+       left: 27%;
+       z-index: 1;
+ }
+ 
+ h1 {
+       font-size: 25px !important;
+ }
+ 
+ button {
+       margin-bottom: 3px;
+       display:block;
+       font-size:10px;
+       padding: 12px 20px;
+ }
+ 
+ .media {
+       right: 15%;
+ }
+ 
+ 
+ .copyright {
+       font-size: 12px;
+       bottom: 20px;   
+ }
+ .copyright a{
+       font-size: 15px;
+ }
+ p {  
+       margin-top: 13px;
+       font-size: 12px;
+ }
+ }
