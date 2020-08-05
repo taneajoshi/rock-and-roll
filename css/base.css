@@ -447,7 +447,7 @@ h1{
 	padding: 0.5em;
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 40em) {
 	h1.title{
 		margin-top: 3em;
 	}
@@ -470,12 +470,12 @@ h1{
 		padding-bottom: 20px;
 		height: 17em;
 		width: 16rem;
-		margin-left: 110px;
+		margin-left: 50px;
 	}
 	
 	.product__img {
 	    margin-bottom: 20px;
-		margin-right: 80px;
+		margin-right: 100px;
 		margin-bottom: 50px;
 	
 	}
@@ -507,10 +507,7 @@ h1{
 		font-size: 0.85em;
 		margin: 1em 0 0 0;
 	}
-	.details__deco {
-		height: 7px;
-		width: 4em;
-	}
+	
 	.details__img {
 		right: 2vh;
 	}
