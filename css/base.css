@@ -54,7 +54,9 @@ body {
 	text-transform: uppercase;
 	z-index: 1;
 }
-
+.logo a{
+	color: white;
+}
 .logo ion-icon {
 	color: var(--pink);
 	margin-right: 7px;
@@ -196,11 +198,11 @@ main {
 .product__bg {
 	height: 18em;
 	width: 18rem;
-	box-shadow: 0 8px 18px #d35066cb;
+	box-shadow: 0 9px 13px  #c3073fc4;
 	border-radius: 200%;
 	background: transparent;
 	position: relative;
-	margin-left: 10px;
+	margin-left: 2px;
 }
 
 .product__img {
@@ -208,7 +210,7 @@ main {
 	margin: 0 auto;
 	display: block;
 	position: absolute;
-	top: 0;
+	top: 4%;
 	left: 50%;
 	pointer-events: none;
 	transform: translate3d(-50%,0,0);
@@ -444,7 +446,7 @@ h1{
 	padding: 0.5em;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 50em) {
 	.headertitle{
 		font-size: 1.1rem;
 		margin-top: 70px;
@@ -459,16 +461,21 @@ h1{
 		padding: 0 2vw;
 	}
 	.product__bg {
-		height: 11em;
-		width: 11rem;
-		margin-left: 10px;
+		padding-bottom: 20px;
+		height: 17em;
+		width: 16rem;
+		margin-left: 20px;
 	}
-	}
+	
 	.product__img {
-		max-height: 19em;
+	    margin-bottom: 20px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+	
 	}
 	.product__title {
 		font-size: 1.25em;
+		color: white;
 	}
 	.product__subtitle {
 		font-size: 0.75em;
@@ -506,10 +513,10 @@ h1{
 		
 	}
 	
-	.codrops-header {
+	.header {
 		padding: 1em 4em;
 	}
-	.codrops-header__title {
+	.title {
 		font-weight: bold;
 		padding-bottom: 0.25em;
 		text-align: center;
