@@ -219,7 +219,7 @@ main {
 .product__title {
 	position: relative;
 	margin: 0.5em 0 0;
-	font-size: 1.75em;
+	font-size: 1.45em;
 	color: var(--color-product-title);
 	font-family: "Playfair Display", serif;
 	font-weight: 700;
@@ -301,7 +301,7 @@ main {
 .details__title {
 	color: white;
 	margin: -4.5em 0 0.1em;
-	font-size: 3.5em;
+	font-size: 2.2em;
 	font-family: "Playfair Display", serif;
 	font-weight: 700;
 }
@@ -312,7 +312,7 @@ span.half{
 	text-transform: uppercase;
 	margin: 6.75em 0 1em 0;
 	letter-spacing: 0.115em;
-	font-size: 1.75em;
+	font-size: 1.45em;
 	color: var(--color-details-subtitle);
 }
 
@@ -508,7 +508,8 @@ h1{
 	.details__description {
 		max-width: 70%;
 		font-size: 0.85em;
-		margin: 1em 0 0 0;
+		max-width: 53%;
+		margin: 6.2% 0 0 0;
 	}
 	
 	.details__img {
@@ -517,6 +518,17 @@ h1{
 	.details__magnifier {
 		right: 7vh;
 		
+	}
+	
+	.details__price {
+		font-size: 1.5em;
+		font-weight: bold;
+		color: #C3073F;
+		margin: 2.2% 0 0 0;
+	}
+	
+	.details__addtocart {
+		margin: 8.2% 0 0 0;
 	}
 	
 	.header {
