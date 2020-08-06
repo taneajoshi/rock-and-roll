@@ -288,9 +288,9 @@ main {
 
 .details__img {
 	position: absolute;
-	top: 7vh;
+	top: 5vh;
 	right: 50vw;
-	height: 100vh;
+	height: 85vh;
 }
 
 .details__bg,
@@ -302,14 +302,15 @@ main {
 	color: white;
 	margin: -4.5em 0 0.1em;
 	font-size: 3.5em;
-	
 	font-family: "Playfair Display", serif;
 	font-weight: 700;
 }
-
+span.half{
+	color: #C3073F;
+}
 .details__subtitle {
 	text-transform: uppercase;
-	margin: 7.75em 0 1em 0;
+	margin: 6.75em 0 1em 0;
 	letter-spacing: 0.115em;
 	font-size: 1.75em;
 	color: var(--color-details-subtitle);
@@ -320,14 +321,15 @@ main {
 	font-weight: bold;
 	font-style: italic;
 	max-width: 45%;
-	margin: 2.2em 0 0 40em;
+	margin: 2.2% 0 0 50%;
 	color: var(--color-details-desc);
 }
 
 .details__price {
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: bold;
-	color: var(--color-price);
+	color: #C3073F;
+	margin: 2.2% 0 0 50%;
 }
 
 .details__addtocart {
@@ -340,6 +342,7 @@ main {
 	color: var(--color-addtocart);
 	padding: 1.2em 2.5em;
 	font-weight: bold;
+	margin: 2.2% 0 0 50%;
 }
 
 .details__addtocart:hover {
@@ -386,13 +389,13 @@ h1{
 .details__magnifier {
 	border: 0;
 	background: none;
-	background: var(--color-bg-magnifier);
+	background: #C3073F;
 	color: var(--color-magnifier);
 	padding: 1em;
 	border-radius: 50%;
 	position: absolute;
 	z-index: 1000;
-	right: calc(21.5vh + 10vw);
+	right: calc(20vh + 50vw);
 	top: 75vh;
 	cursor: pointer;
 }
@@ -401,12 +404,6 @@ h1{
 	background: var(--color-btn-hover);
 }
 
-.details__deco {
-	width: 7em;
-	height: 20px;
-	background-position: 50% 97%;
-	background-size: 150%;
-}
 
 .content--related {
 	margin-top: -150px;
@@ -474,9 +471,9 @@ h1{
 	}
 	.product__bg {
 		padding-bottom: 20px;
-		height: 17em;
-		width: 16rem;
-		margin-left: 50px;
+		height: 18em;
+		width: 18rem;
+		margin-left: 65px;
 	}
 	
 	.product__img {
