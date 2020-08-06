@@ -260,7 +260,7 @@ main {
 }
 
 .details--open {
-	pointer-events: auto;
+	pointer-events: fill;
 }
 
 .details > * {
@@ -276,21 +276,21 @@ main {
 
 .details__bg--up {
 	top: 0;
-	height: 100vh;
+	height: 120vh;
 	background-color: black;
 }
 
 .details__bg--down {
 	top: 40vh;
-	height: 60vh;
+	height: 180vh;
 	background: var(--details-bg-down);
 }
 
 .details__img {
 	position: absolute;
 	top: 7vh;
-	right: 10vw;
-	height: 80vh;
+	right: 50vw;
+	height: 100vh;
 }
 
 .details__bg,
@@ -299,26 +299,28 @@ main {
 }
 
 .details__title {
-	margin: -1.5em 0 0.1em;
-	font-size: 4.5em;
-	color: var(--color-details-title);
+	color: white;
+	margin: -4.5em 0 0.1em;
+	font-size: 3.5em;
+	
 	font-family: "Playfair Display", serif;
 	font-weight: 700;
 }
 
 .details__subtitle {
 	text-transform: uppercase;
-	margin: 0.75em 0 1em 0;
+	margin: 7.75em 0 1em 0;
 	letter-spacing: 0.115em;
 	font-size: 1.75em;
 	color: var(--color-details-subtitle);
 }
 
 .details__description {
-	line-height: 1.5;
+	line-height: 1.6;
 	font-weight: bold;
-	max-width: 50%;
-	margin: 2em 0 0 0;
+	font-style: italic;
+	max-width: 45%;
+	margin: 2.2em 0 0 40em;
 	color: var(--color-details-desc);
 }
 
@@ -329,18 +331,22 @@ main {
 }
 
 .details__addtocart {
+	cursor: pointer;
 	border: 0;
 	border-radius: 4px;
 	margin: auto 0 0 0;
 	margin-top: 30px;
 	background: var(--color-bg-addtocart);
 	color: var(--color-addtocart);
-	padding: 1em 2em;
+	padding: 1.2em 2.5em;
 	font-weight: bold;
 }
 
 .details__addtocart:hover {
-	background: var(--color-btn-hover);
+	background: transparent;
+	border: 1px solid black;
+	transform: scale(1.1);
+	color: black;
 }
 
 .details__close {

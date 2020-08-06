@@ -1,13 +1,4 @@
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
- */
+
 {
     class Details {
         constructor() {
@@ -55,7 +46,7 @@
         fill(info) {
             this.DOM.img.src = info.img;
             this.DOM.title.innerHTML = info.title;
-            this.DOM.deco.style.backgroundImage = `url(${info.img})`;
+            
             this.DOM.subtitle.innerHTML = info.subtitle;
             this.DOM.price.innerHTML = info.price;
             this.DOM.description.innerHTML = info.description;
