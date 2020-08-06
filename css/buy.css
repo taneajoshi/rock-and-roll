@@ -310,9 +310,9 @@ span.half{
 }
 .details__subtitle {
 	text-transform: uppercase;
-	margin: 6.75em 0 1em 0;
+	margin: 7.75em 0 1em 0;
 	letter-spacing: 0.115em;
-	font-size: 1.45em;
+	font-size: 1.3em;
 	color: var(--color-details-subtitle);
 }
 
@@ -500,6 +500,7 @@ h1{
 		font-size: 2em;
 	}
 	.details__subtitle {
+		margin-top: 80px;
 		font-size: 1em;
 	}
 	.details__price {
