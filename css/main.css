@@ -162,7 +162,7 @@ button {
       border: 1px solid var(--pink);
       color: #C3073F;
       background: transparent;
-      font-size: 500;
+
       transform: scale(1.1);
       -webkit-transform: scale(1.1);
 }
@@ -170,7 +170,7 @@ button {
       display: inline-block;
       color: black;
       background: #fff;
-      font-size: 500;
+
       transform: scale(1.1);
       -webkit-transform: scale(1.1);
 }
@@ -540,7 +540,6 @@ li ion-icon{
 .buy{
       color:white;
       z-index: 1;
-      margin-left: 2%;
 } 
 .menu{
       right: 2%;  
@@ -552,7 +551,7 @@ li ion-icon{
 }
 
 h1 {
-      font-size: 20px !important;
+      font-size: 32px !important;
 }
 
 
@@ -594,7 +593,7 @@ p {
  .header img{
       transform: rotate(-45deg);
        width: 100%;
-       margin-left: 130px;
+       margin-left: 104px;
        margin-top: -50px;
  }             
  
@@ -602,6 +601,7 @@ p {
        color:white;
        font-size: 15px;
        z-index: 1;
+       margin-left: 4%;
  } 
  .menu{
        right: 2%;  
@@ -610,33 +610,44 @@ p {
  .header{
        left: 27%;
        z-index: 1;
+
  }
  
  h1 {
-       font-size: 25px !important;
+       font-size: 18px !important;
  }
  
  button {
        margin-bottom: 3px;
        display:block;
        font-size:10px;
-       padding: 12px 20px;
+       padding: 6px 10px;
+ }
+ button#one {
+       font-size: 9px;
+
+ }
+ button:focus{
+       outline: none;
+ }
+ a{
+       font-size: 9px;
  }
  
  .media {
-       right: 15%;
+       right: 18%;
  }
  
  
  .copyright {
-       font-size: 12px;
-       bottom: 20px;   
+       font-size: 9px;
+       bottom: 13px;   
  }
  .copyright a{
-       font-size: 15px;
+       font-size: 12px;
  }
  p {  
-       margin-top: 13px;
-       font-size: 12px;
+       margin-top: 14px;
+       font-size: 11px;
  }
  }
