@@ -505,11 +505,11 @@ h1{
 		font-size: 1em;
 	}
 	.details__price {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 	.details__description {
 		max-width: 70%;
-		font-size: 0.85em;
+		font-size: 0.55em;
 		max-width: 53%;
 		margin: 6.2% 0 0 0;
 	}

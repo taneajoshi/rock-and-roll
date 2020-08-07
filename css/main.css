@@ -584,11 +584,6 @@ p {
 }
 
 @media(max-width: 500px) {
-.logo {
-      margin-left: 1.2em;
-      font-size: 18px;
-      letter-spacing: 2.5px;
-}
       
  .header img{
       transform: rotate(-45deg);
