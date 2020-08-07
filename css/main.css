@@ -586,7 +586,7 @@ p {
 @media(max-width: 500px) {
 .logo {
       margin-left: 1.2em;
-      font-size: 15px;
+      font-size: 18px;
       letter-spacing: 2.5px;
 }
       
@@ -599,7 +599,7 @@ p {
  
  .buy{
        color:white;
-       font-size: 15px;
+       font-size: 16.5px;
        z-index: 1;
        margin-left: 4%;
  } 
@@ -608,6 +608,7 @@ p {
  }
  
  .header{
+       top: 42%;
        left: 27%;
        z-index: 1;
 
@@ -625,7 +626,7 @@ p {
        margin-bottom: 3px;
        display:block;
        font-size:10px;
-       padding: 5px 10px;
+       padding: 7px 12.5px;
     
  }
  button#one {
@@ -645,11 +646,16 @@ p {
  
  
  .copyright {
-       margin: 20px 0 0 0;
+       
+       left: 20%;
+       bottom: -10%;
        font-size: 8px;
-   
+       display: inline;
+       margin-right: 0.5em;
+       bottom: 10px;  
      
  }
+
  .copyright a{
        font-size: 12px;
  }
@@ -659,6 +665,6 @@ p {
  }
  .copyright p{
        margin-top: 2px;
-       font-size: px;
+       
  }
  }

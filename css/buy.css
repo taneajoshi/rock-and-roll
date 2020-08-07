@@ -450,7 +450,7 @@ h1{
 	padding: 0.5em;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 38em) {
 	h1.title{
 		margin-top: 3em;
 	}
@@ -470,10 +470,11 @@ h1{
 		display: block;
 	}
 	.product__bg {
+		margin-top: 50px;
 		padding-bottom: 20px;
-		height: 18em;
-		width: 18rem;
-		margin-left: 65px;
+		height: 16em;
+		width: 16rem;
+		margin-left: 10%;
 	}
 	
 	.product__img {
