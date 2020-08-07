@@ -7,5 +7,5 @@ Demo Link : [See Live](https://rockandroll.netlify.com)
 
 Vedio Walkthrough:
 </br>
-![](https://github.com/taneajoshi/rock-and-roll/blob/master/rock.gif)
+![](https://github.com/taneajoshi/rock-and-roll/blob/master/rockandroll.gif)
 
