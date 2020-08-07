@@ -540,6 +540,7 @@ li ion-icon{
 .buy{
       color:white;
       z-index: 1;
+      margin-left: 2%;
 } 
 .menu{
       right: 2%;  
@@ -551,7 +552,7 @@ li ion-icon{
 }
 
 h1 {
-      font-size: 32px !important;
+      font-size: 20px !important;
 }
 
 
