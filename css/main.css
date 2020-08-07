@@ -422,7 +422,7 @@ button {
       border: 1px solid var(--pink);
       color: #C3073F;
       background: transparent;
-      font-size: 500;
+
       transform: scale(1.1);
       -webkit-transform: scale(1.1);
 }
@@ -430,7 +430,7 @@ button {
       display: inline-block;
       color: black;
       background: #fff;
-      font-size: 500;
+      
       transform: scale(1.1);
       -webkit-transform: scale(1.1);
 }
@@ -614,17 +614,22 @@ p {
  }
  
  h1 {
-       font-size: 18px !important;
+       font-size: 15px !important;
+ }
+ .buttons{
+       margin-top: 30px;
  }
  
  button {
+       margin-top: 8%;
        margin-bottom: 3px;
        display:block;
        font-size:10px;
-       padding: 6px 10px;
+       padding: 5px 10px;
+    
  }
  button#one {
-       font-size: 9px;
+       font: 9px;
 
  }
  button:focus{
@@ -640,8 +645,10 @@ p {
  
  
  .copyright {
-       font-size: 9px;
-       bottom: 13px;   
+       margin: 20px 0 0 0;
+       font-size: 8px;
+   
+     
  }
  .copyright a{
        font-size: 12px;
@@ -649,5 +656,9 @@ p {
  p {  
        margin-top: 14px;
        font-size: 11px;
+ }
+ .copyright p{
+       margin-top: 2px;
+       font-size: px;
  }
  }
